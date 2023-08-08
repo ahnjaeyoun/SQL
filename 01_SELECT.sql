@@ -16,10 +16,6 @@
 
 
 
-
-
-
-
 SELECT * FROM EMPLOYEE;
 -- '*' : ALL, 모든, 전부
 --> EMPLOYEE 테이블의 모든 컬럼을 조회하겠다.

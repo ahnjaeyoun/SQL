@@ -316,7 +316,7 @@ FROM EMPLOYEE;
 -- 직급 코드가 J5인 직원은 10% 인상,
 -- 그 외 직급은 5% 인상
 
-SELECT EMP_NAME, JOB)CODE, SALARY,
+SELECT EMP_NAME, JOB_CODE , SALARY,
 	DECODE(JOB_CODE, 'J7', '20%',
 					'J6', '15%',
 					'J5', '10%',
