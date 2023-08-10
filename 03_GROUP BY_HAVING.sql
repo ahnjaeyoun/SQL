@@ -103,7 +103,7 @@ FROM EMPLOYEE
 GROUP BY DEPT_CODE, JOB_CODE -- DEPT_CODE로 그룹을 나누고, 
 							-- 나눠진 그룹내에서 JOB_CODE로 또 그룹을 분류
 							--> 세분화 
-ORDER BY DEPT_CODE, JOB_CODE DESC; 
+ORDER BY DEPT_CODE, JOB_CODE DESC;
 
 -- *** GROUP BY 사용 시 주의사항 ***
 -- SELECT문에 GROUP BY절을 사용할 경우
@@ -163,7 +163,7 @@ ORDER BY 1;
 
 /* SET OPERATOR(집합 연산자)
  * 
- * -- 여러 SELECT의 결과(RESULT SET)를 하나의 결과로 만드는 연산자
+ * - 여러 SELECT의 결과(RESULT SET)를 하나의 결과로 만드는 연산자
  * 
  * - UNION(합집합) : 두 SELECT 결과를 하나로 합침
  * 					단, 중복은 한번만 작성
